@@ -1,4 +1,4 @@
-FROM postgres:14.3 as postgres-parquet-fdw
+FROM postgres:14.5 as postgres-parquet-fdw
 LABEL org.opencontainers.image.source="https://github.com/majoomoondoor/postgres-parquet-fdw"
 LABEL org.opencontainers.image.description "PostgreSQL with Parquet FDW extension Docker Image"
 
